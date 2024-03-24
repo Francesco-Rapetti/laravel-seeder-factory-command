@@ -2,3 +2,37 @@
 @use "./partials/mixins" as *;
 
 @import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #070507;
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.navbar {
+    background-color: #47178a !important;
+    height: 130px;
+}
+
+.offcanvas {
+    background-color: #47178a !important;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
